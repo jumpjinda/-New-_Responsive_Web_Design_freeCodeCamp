@@ -1,0 +1,123 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1720&q=80");
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+.container {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.container {
+  margin: 0 auto 0 auto;
+}
+
+#survey-form {
+  background-color: #ba68c84f;
+  border-radius: 0.5rem;
+  margin: 20px auto 20px auto;
+  padding: 2rem;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  box-sizing: border-box;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+p {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.input-radio,
+.input-checkbox,
+.input-submit {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.input-textarea {
+  min-height: 100px;
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.form-group:last-of-type {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.submit-button {
+  background-color: rgb(63, 186, 69);
+  color: rgba(255, 255, 255, 0.842);
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-radius: 0.35rem;
+  font-size: 1.25rem;
+}
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 800px;
+  }
+}
